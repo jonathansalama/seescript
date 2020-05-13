@@ -1,0 +1,1 @@
+export default (v, cb=[]) => c => c===void 0 ? v : c.call ? cb.push(c) : cb.map(f=>f(v=c)) && v

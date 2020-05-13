@@ -1,0 +1,920 @@
+-- Merging decision tree log ---
+category#com.seescript
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:35:17-61
+	android:name
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+permission#com.seescript.permission.C2D_MESSAGE
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:65:5-67:47
+	android:name
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+uses-permission#com.seescript.permission.C2D_MESSAGE
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:68:5-79
+	android:name
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+MERGED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+MERGED from [:react-native-firebase_app] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/94a48e8af4344fd6089a5b44f1a9ce49/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-community_datetimepicker] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_masked-view] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-background-fetch] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:2:1-31:12
+MERGED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:2:1-18:12
+MERGED from [:react-native-gesture-handler] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-push-notification] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-sqlite-storage] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-sqlite-storage/platforms/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-text-detector] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-text-detector/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:react-native-tts] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-tts/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d3cbff8ab426b4781c56764aa2ab186/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r245459] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/685c896cb93c33eab6368483463ccf1c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ea7a3a06fe2f82eb9499d454691b5c76/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/af3d3d534eb0a07524bda780939d4d92/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/34c0bca85ec71f2543e6d3510d575121/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/cd649c11135949be50870f977ead79e4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/19fe35ddaf3a7a5573b9be2f8a027b7f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d7cf582c8ea6c8c3e7d8acd33a47182/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8d76d0b9c7ec663325f522a216968349/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d3e5482b1c09057a13260280c84c5623/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1ed5f84a97fb31bf121e5c94d46c7ace/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4ede00ffe7ac12b50c759df93839013f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-core:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a23d826c78c20a225ac459034ef7a6bb/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9f5604bce993161284af661407b65bb6/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:2:1-23:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:15:1-39:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5f8f6fea885e615f93dec02e0d5dca70/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fece55d4d2218890c0435ac122e9c17c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:19.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6d706d6c1c88ccbf7292ddadf3b6167/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/50ff40663d9b24b18b2c9e8a28fe7a13/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8bd3e67b83fe83794d470b4b056c51e7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e115c5fc224e5a14ceda2a512ae7b3d3/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f43de57ed4ba1e5d0d653ee36b6900f8/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/798c3d993e442fd7d035694821cc2b10/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b401fe5991c11413fa383c75b7a4bad7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/054026a66b5cc6447b01ccf7d62f8c9d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/28c25c479b81142eb5c0d83b2ca67a30/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/03afecf6dda28b21d21e829908869c90/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/89026064fd5885d930cd354ca4328ea1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee351d9241591d574ee3625f318894f4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/54865d7a1e9c2be3a0da3752253bc360/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fcf8a8a0acac348251711e2d301a2d54/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/315deede29f6a7322c7cf2ca97756c99/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a87e9a531689ae7423191d7b4104586d/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/cb344250ecede9045e6c2b66961d298e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/debecfa22023913b3780634d61c9311b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5b5e7900994ea5c79cd004fac4136b52/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4c1dc3667210cd6d3af438733cecf1a3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6b12df38b4b788a88a6ebcf23bc8bef/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4caf68559ee8ec56288bf4b543cf4cca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a815641c3dfcab472bc32df77ad9e5b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e85678f0ca10422ac876ae1adc7dc582/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/371a873110ae5d4f228f512893075209/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/234f3886bc33fc9c0cf92326d222b4e8/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/7510f61436e61bd25d8a133c7deed781/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/575679b7dcec7f3c535d145cbae94bbd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e566919a89827f7b3c857579dc79737e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/87bc1b298888acb0740b0bc6cdd8f5b6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d94f11234572934d7d9cbaa1379f12fb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5aa366ed331278829c6ce170fc832b61/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6d4658d3f0e36470ba3309a18553f55b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/01ead47b18260c5ea376faa240083d1d/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/39a582de4854363097fa84368b30a281/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1adcd2b6a77cd4c0a4e6e01d491af96e/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4a54d23a5a35d9469c714d24d3778924/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/828d32f8a88e4a3bfa360aa6c8192f0a/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/99c7f55d840a23e8586dc6c626a01d5e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b053a5a1ac934511f2f92c3f8ae8cd2d/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ff952698061592322af0cc9c9ef69ef/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/001494438c1808855a33c0c1cf00cb80/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/211f02187828e63c808b847f3b1d9a78/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d7c08efc88dcee70e76bfa6d4fd18ab3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ca4ba5d2164dcec5fcc2e65d44410e9e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/90d680104c5541ed796ebb1c5c1cb5ef/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/309cd158931220bf36a2f1574a023da5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a9701b33e62687678102edd256af1598/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a917359bb7a07d2f0cabeb2f48788884/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a1bdda24522317cb246e2a58488e9002/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8440c13b1b5d2070a4a3ee5167bdfdab/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5acf32d77644ebde614b389bc5d1a6bc/AndroidManifest.xml:17:1-24:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:2:1-52:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f3fc8130423f9a9010ecdfb9b05a3b4b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1a60b447e70d5a748e941233d8c182a0/AndroidManifest.xml:15:1-22:12
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:2:1-8:12
+	package
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:2:3-26
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:2:3-26
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:1-77:12
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:4:22-64
+application
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:6:5-62:19
+MERGED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:6:5-62:19
+MERGED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:6:5-62:19
+MERGED from [:react-native-community_datetimepicker] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-background-fetch] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [:react-native-background-fetch] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-12:19
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:15:5-29:19
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:15:5-29:19
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d3cbff8ab426b4781c56764aa2ab186/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d3cbff8ab426b4781c56764aa2ab186/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:22:5-42:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.material:material:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ea7a3a06fe2f82eb9499d454691b5c76/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ea7a3a06fe2f82eb9499d454691b5c76/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4ede00ffe7ac12b50c759df93839013f/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4ede00ffe7ac12b50c759df93839013f/AndroidManifest.xml:11:5-20
+MERGED from [com.google.firebase:firebase-core:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a23d826c78c20a225ac459034ef7a6bb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a23d826c78c20a225ac459034ef7a6bb/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9f5604bce993161284af661407b65bb6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9f5604bce993161284af661407b65bb6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:13:5-21:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:19.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6d706d6c1c88ccbf7292ddadf3b6167/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:19.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6d706d6c1c88ccbf7292ddadf3b6167/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/50ff40663d9b24b18b2c9e8a28fe7a13/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/50ff40663d9b24b18b2c9e8a28fe7a13/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8bd3e67b83fe83794d470b4b056c51e7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8bd3e67b83fe83794d470b4b056c51e7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/798c3d993e442fd7d035694821cc2b10/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/798c3d993e442fd7d035694821cc2b10/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b401fe5991c11413fa383c75b7a4bad7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b401fe5991c11413fa383c75b7a4bad7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/054026a66b5cc6447b01ccf7d62f8c9d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/054026a66b5cc6447b01ccf7d62f8c9d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/28c25c479b81142eb5c0d83b2ca67a30/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/28c25c479b81142eb5c0d83b2ca67a30/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/89026064fd5885d930cd354ca4328ea1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/89026064fd5885d930cd354ca4328ea1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee351d9241591d574ee3625f318894f4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee351d9241591d574ee3625f318894f4/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/54865d7a1e9c2be3a0da3752253bc360/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/54865d7a1e9c2be3a0da3752253bc360/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fcf8a8a0acac348251711e2d301a2d54/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fcf8a8a0acac348251711e2d301a2d54/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/315deede29f6a7322c7cf2ca97756c99/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/315deede29f6a7322c7cf2ca97756c99/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a87e9a531689ae7423191d7b4104586d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a87e9a531689ae7423191d7b4104586d/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/828d32f8a88e4a3bfa360aa6c8192f0a/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/828d32f8a88e4a3bfa360aa6c8192f0a/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b053a5a1ac934511f2f92c3f8ae8cd2d/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b053a5a1ac934511f2f92c3f8ae8cd2d/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/828d32f8a88e4a3bfa360aa6c8192f0a/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:8:7-39
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:8:7-39
+	tools:ignore
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:7:75-114
+	android:roundIcon
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:10:7-52
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:10:7-52
+	tools:targetApi
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:7:54-74
+	android:icon
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:9:7-41
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:9:7-41
+	android:allowBackup
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:7:18-53
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:7:7-38
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:7:7-38
+activity#com.seescript.MainActivity
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:13:7-23:18
+	android:screenOrientation
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:17:9-45
+	android:label
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:18:9-51
+	android:configChanges
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:19:9-22:25
+action#android.intent.action.MAIN
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:20:13-65
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:20:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:21:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:24:7-84
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:24:17-81
+meta-data#com.dieam.reactnativepushnotification.notification_color
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:26:9-27:54
+	android:resource
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:27:13-52
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:26:21-92
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:29:9-37:20
+	android:exported
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:31:13-36
+	android:permission
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:32:13-73
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:30:13-66
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.seescript
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:33:13-36:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:34:17-81
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:34:25-78
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:39:9-110
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:39:19-107
+receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:40:9-44:20
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:40:19-115
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:41:13-43:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:42:25-76
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:45:9-118
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:45:18-116
+service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerServiceGcm
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:47:9-53:19
+	android:exported
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:49:13-37
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:48:13-110
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:50:13-52:29
+meta-data#com.dieam.reactnativepushnotification.notification_channel_name
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:55:9-147
+	android:value
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:55:99-145
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:55:20-98
+meta-data#com.dieam.reactnativepushnotification.notification_channel_description
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:56:9-161
+	android:value
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:56:106-159
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:56:20-105
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:58:9-60:35
+	android:value
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:60:13-32
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:59:13-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:64:5-68
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:12:5-68
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:12:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:64:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:69:5-66
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:69:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:70:5-80
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:11:5-81
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:70:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:72:5-65
+MERGED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:72:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:73:5-70
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:73:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:74:5-80
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:74:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:75:5-81
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml:75:22-78
+uses-sdk
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-firebase_app] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase_app] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-firebase/app/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/94a48e8af4344fd6089a5b44f1a9ce49/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/94a48e8af4344fd6089a5b44f1a9ce49/AndroidManifest.xml:20:5-43
+MERGED from [:react-native-community_datetimepicker] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_datetimepicker] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/datetimepicker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/jonathansalama/iw07/SeeScript/node_modules/@react-native-community/masked-view/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-background-fetch] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-background-fetch] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-background-fetch/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:7:5-9:41
+MERGED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-gesture-handler/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-push-notification] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-push-notification] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-push-notification/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-safe-area-context/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sqlite-storage] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-sqlite-storage/platforms/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-sqlite-storage] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-sqlite-storage/platforms/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-text-detector] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-text-detector/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-text-detector] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-text-detector/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-tts] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-tts/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-tts] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-tts/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d3cbff8ab426b4781c56764aa2ab186/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d3cbff8ab426b4781c56764aa2ab186/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/685c896cb93c33eab6368483463ccf1c/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/685c896cb93c33eab6368483463ccf1c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ea7a3a06fe2f82eb9499d454691b5c76/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ea7a3a06fe2f82eb9499d454691b5c76/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/af3d3d534eb0a07524bda780939d4d92/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/af3d3d534eb0a07524bda780939d4d92/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/34c0bca85ec71f2543e6d3510d575121/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/34c0bca85ec71f2543e6d3510d575121/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/cd649c11135949be50870f977ead79e4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/cd649c11135949be50870f977ead79e4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/19fe35ddaf3a7a5573b9be2f8a027b7f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/19fe35ddaf3a7a5573b9be2f8a027b7f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d7cf582c8ea6c8c3e7d8acd33a47182/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9d7cf582c8ea6c8c3e7d8acd33a47182/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8d76d0b9c7ec663325f522a216968349/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8d76d0b9c7ec663325f522a216968349/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d3e5482b1c09057a13260280c84c5623/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d3e5482b1c09057a13260280c84c5623/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1ed5f84a97fb31bf121e5c94d46c7ace/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1ed5f84a97fb31bf121e5c94d46c7ace/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4ede00ffe7ac12b50c759df93839013f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4ede00ffe7ac12b50c759df93839013f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a23d826c78c20a225ac459034ef7a6bb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a23d826c78c20a225ac459034ef7a6bb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9f5604bce993161284af661407b65bb6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9f5604bce993161284af661407b65bb6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5f8f6fea885e615f93dec02e0d5dca70/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5f8f6fea885e615f93dec02e0d5dca70/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fece55d4d2218890c0435ac122e9c17c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fece55d4d2218890c0435ac122e9c17c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:19.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6d706d6c1c88ccbf7292ddadf3b6167/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-face-model:19.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6d706d6c1c88ccbf7292ddadf3b6167/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/50ff40663d9b24b18b2c9e8a28fe7a13/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/50ff40663d9b24b18b2c9e8a28fe7a13/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8bd3e67b83fe83794d470b4b056c51e7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8bd3e67b83fe83794d470b4b056c51e7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e115c5fc224e5a14ceda2a512ae7b3d3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e115c5fc224e5a14ceda2a512ae7b3d3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f43de57ed4ba1e5d0d653ee36b6900f8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f43de57ed4ba1e5d0d653ee36b6900f8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/798c3d993e442fd7d035694821cc2b10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/798c3d993e442fd7d035694821cc2b10/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b401fe5991c11413fa383c75b7a4bad7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:18.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b401fe5991c11413fa383c75b7a4bad7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/054026a66b5cc6447b01ccf7d62f8c9d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.0.2] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/054026a66b5cc6447b01ccf7d62f8c9d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/28c25c479b81142eb5c0d83b2ca67a30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/28c25c479b81142eb5c0d83b2ca67a30/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/03afecf6dda28b21d21e829908869c90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/03afecf6dda28b21d21e829908869c90/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/89026064fd5885d930cd354ca4328ea1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/89026064fd5885d930cd354ca4328ea1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee351d9241591d574ee3625f318894f4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee351d9241591d574ee3625f318894f4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/54865d7a1e9c2be3a0da3752253bc360/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/54865d7a1e9c2be3a0da3752253bc360/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fcf8a8a0acac348251711e2d301a2d54/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/fcf8a8a0acac348251711e2d301a2d54/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/315deede29f6a7322c7cf2ca97756c99/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/315deede29f6a7322c7cf2ca97756c99/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a87e9a531689ae7423191d7b4104586d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a87e9a531689ae7423191d7b4104586d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/cb344250ecede9045e6c2b66961d298e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/cb344250ecede9045e6c2b66961d298e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/debecfa22023913b3780634d61c9311b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/debecfa22023913b3780634d61c9311b/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5b5e7900994ea5c79cd004fac4136b52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5b5e7900994ea5c79cd004fac4136b52/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4c1dc3667210cd6d3af438733cecf1a3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4c1dc3667210cd6d3af438733cecf1a3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6b12df38b4b788a88a6ebcf23bc8bef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a6b12df38b4b788a88a6ebcf23bc8bef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4caf68559ee8ec56288bf4b543cf4cca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4caf68559ee8ec56288bf4b543cf4cca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a815641c3dfcab472bc32df77ad9e5b2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a815641c3dfcab472bc32df77ad9e5b2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e85678f0ca10422ac876ae1adc7dc582/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e85678f0ca10422ac876ae1adc7dc582/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/371a873110ae5d4f228f512893075209/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:16.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/371a873110ae5d4f228f512893075209/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/234f3886bc33fc9c0cf92326d222b4e8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/234f3886bc33fc9c0cf92326d222b4e8/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/7510f61436e61bd25d8a133c7deed781/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/7510f61436e61bd25d8a133c7deed781/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/575679b7dcec7f3c535d145cbae94bbd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/575679b7dcec7f3c535d145cbae94bbd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e566919a89827f7b3c857579dc79737e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/e566919a89827f7b3c857579dc79737e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/87bc1b298888acb0740b0bc6cdd8f5b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/87bc1b298888acb0740b0bc6cdd8f5b6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d94f11234572934d7d9cbaa1379f12fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d94f11234572934d7d9cbaa1379f12fb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5aa366ed331278829c6ce170fc832b61/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5aa366ed331278829c6ce170fc832b61/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6d4658d3f0e36470ba3309a18553f55b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6d4658d3f0e36470ba3309a18553f55b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/01ead47b18260c5ea376faa240083d1d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/01ead47b18260c5ea376faa240083d1d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/39a582de4854363097fa84368b30a281/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/39a582de4854363097fa84368b30a281/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1adcd2b6a77cd4c0a4e6e01d491af96e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1adcd2b6a77cd4c0a4e6e01d491af96e/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4a54d23a5a35d9469c714d24d3778924/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4a54d23a5a35d9469c714d24d3778924/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/828d32f8a88e4a3bfa360aa6c8192f0a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/828d32f8a88e4a3bfa360aa6c8192f0a/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/99c7f55d840a23e8586dc6c626a01d5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/99c7f55d840a23e8586dc6c626a01d5e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b053a5a1ac934511f2f92c3f8ae8cd2d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b053a5a1ac934511f2f92c3f8ae8cd2d/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ff952698061592322af0cc9c9ef69ef/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ff952698061592322af0cc9c9ef69ef/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/001494438c1808855a33c0c1cf00cb80/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/001494438c1808855a33c0c1cf00cb80/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/211f02187828e63c808b847f3b1d9a78/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/211f02187828e63c808b847f3b1d9a78/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d7c08efc88dcee70e76bfa6d4fd18ab3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/d7c08efc88dcee70e76bfa6d4fd18ab3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ca4ba5d2164dcec5fcc2e65d44410e9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ca4ba5d2164dcec5fcc2e65d44410e9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/90d680104c5541ed796ebb1c5c1cb5ef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/90d680104c5541ed796ebb1c5c1cb5ef/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/309cd158931220bf36a2f1574a023da5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/309cd158931220bf36a2f1574a023da5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a9701b33e62687678102edd256af1598/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a9701b33e62687678102edd256af1598/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a917359bb7a07d2f0cabeb2f48788884/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a917359bb7a07d2f0cabeb2f48788884/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a1bdda24522317cb246e2a58488e9002/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a1bdda24522317cb246e2a58488e9002/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8440c13b1b5d2070a4a3ee5167bdfdab/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/8440c13b1b5d2070a4a3ee5167bdfdab/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5acf32d77644ebde614b389bc5d1a6bc/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/5acf32d77644ebde614b389bc5d1a6bc/AndroidManifest.xml:20:5-22:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f3fc8130423f9a9010ecdfb9b05a3b4b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f3fc8130423f9a9010ecdfb9b05a3b4b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1a60b447e70d5a748e941233d8c182a0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/1a60b447e70d5a748e941233d8c182a0/AndroidManifest.xml:18:5-20:41
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/jonathansalama/iw07/SeeScript/android/app/src/debug/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.GET_TASKS
+ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:13:22-65
+receiver#com.transistorsoft.tsbackgroundfetch.FetchAlarmReceiver
+ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:16:9-92
+	android:name
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:16:19-89
+service#com.transistorsoft.tsbackgroundfetch.FetchJobService
+ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:18:9-21:72
+	android:exported
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:20:13-36
+	android:permission
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:19:13-80
+receiver#com.transistorsoft.tsbackgroundfetch.BootReceiver
+ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:23:9-28:20
+	android:name
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:23:19-83
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:26:17-84
+	android:name
+		ADDED from [tsbackgroundfetch-0.4.2.aar] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/bf0d71a29dc8f23f8743639666649129/AndroidManifest.xml:26:25-81
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-camera/android/build/intermediates/library_manifest/mlkitDebug/AndroidManifest.xml:15:9-57
+uses-permission#android.permission.NFC
+ADDED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:5-62
+	android:name
+		ADDED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:9:22-59
+uses-feature#android.hardware.nfc
+ADDED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-nfc-manager] /Users/jonathansalama/iw07/SeeScript/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-44
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:32:25-75
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:35:9-41:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:14:9-20:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:37:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:36:13-84
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:38:13-40:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:40:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/3ff75dcdf52727335051d438a75a3c1a/AndroidManifest.xml:39:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:17.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9b686fba88a52eea566bdb1a5ccb0663/AndroidManifest.xml:29:17-115
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/975e029c99b915e7b11ddc13f623e555/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:25:22-76
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/4561223c04527a03fbc1c0d23fd384fa/AndroidManifest.xml:33:17-94
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:2.2.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/ee7deb74a1de346f3fca3d2d1d63b220/AndroidManifest.xml:33:13-132
+meta-data#com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar
+ADDED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-vision:24.0.3] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/6cec0ccc35764db8fcf151fc3a154604/AndroidManifest.xml:13:17-108
+meta-data#com.google.firebase.components:com.google.firebase.ml.common.CommonComponentRegistrar
+ADDED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-ml-common:22.1.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/f6893c5bb563dd8693a003a9125df9ec/AndroidManifest.xml:12:17-117
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/c0076d525c1244ee2f68ba5d76c8e497/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:20.1.7] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/58fc18b14745a8415a08d6034143c239/AndroidManifest.xml:38:13-78
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:16.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/72ed893febbe0d8ba3f49941227fa24d/AndroidManifest.xml:18:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/0411cf0ccda2a421f9c8d0c1a664e901/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/047e397033f99e24633b5c8d5e81fb7e/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:17.4.1] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/9ba1a5c58e600721db2b4964a36344cb/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/a2ce255f49cd11e38861013630ab4ccf/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/b8556b8d652cd5f162fad5e3605c9ea1/AndroidManifest.xml:24:13-58
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/jonathansalama/.gradle/caches/transforms-2/files-2.1/56f9464faa97ded5b4dc19f9183a34ed/AndroidManifest.xml:50:22-86

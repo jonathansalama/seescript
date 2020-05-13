@@ -1,0 +1,4 @@
+# Referenced at /Users/jonathansalama/iw07/SeeScript/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:70
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/jonathansalama/iw07/SeeScript/android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml:70
+-keep class com.seescript.MainApplication { <init>(); }

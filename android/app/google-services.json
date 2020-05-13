@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "33835921264",
+    "firebase_url": "https://seescript-dc920.firebaseio.com",
+    "project_id": "seescript-dc920",
+    "storage_bucket": "seescript-dc920.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33835921264:android:29416742479ae2f75769b5",
+        "android_client_info": {
+          "package_name": "com.seescript"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33835921264-5tdkmlrmvb65ll0gmptsjjgduumrjtf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLbS-l4AZaAoLQjp40BY0mfwU6G93seJo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33835921264-5tdkmlrmvb65ll0gmptsjjgduumrjtf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
